@@ -1,113 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peripheral Devices</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to right, #4facfe, #00f2fe);
+            background-color: #f4f4f9;
             color: #333;
-            line-height: 1.6;
         }
 
         header {
-            background-color: #0a4d68;
+            background: linear-gradient(90deg, #4facfe, #00f2fe);
             color: white;
-            padding: 20px 0;
             text-align: center;
+            padding: 2rem 0;
         }
 
         header h1 {
-            margin: 0;
-            font-size: 2.5em;
+            font-size: 3rem;
         }
 
         section {
-            padding: 20px;
-            max-width: 1200px;
-            margin: auto;
-        }
-
-        .device {
-            margin-bottom: 40px;
-            padding: 20px;
-            border-radius: 10px;
+            margin: 2rem auto;
+            max-width: 900px;
+            padding: 1rem;
             background: white;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
 
-        .device img {
+        section h2 {
+            color: #007BFF;
+        }
+
+        img {
             max-width: 100%;
             height: auto;
-            border-radius: 10px;
-        }
-
-        .device h2 {
-            margin: 20px 0 10px;
-            color: #0a4d68;
-        }
-
-        .device p {
-            margin: 0;
-            text-align: justify;
+            border-radius: 8px;
+            margin: 1rem 0;
         }
 
         footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #0a4d68;
+            background: #333;
             color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
         }
 
-        footer p {
-            margin: 0;
+        .image-wrapper {
+            text-align: center;
+        }
+
+        ul {
+            list-style: circle;
+            padding-left: 20px;
+        }
+
+        .highlight {
+            color: #ff5722;
+            font-weight: bold;
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Peripheral Devices</h1>
-        <p>Exploring the World of Computer Accessories</p>
+        <p>An Insight into Computer Peripheral Devices</p>
     </header>
 
     <section>
-        <div class="device">
-            <h2>Input Devices</h2>
-            <img src="https://via.placeholder.com/800x400" alt="Input Devices">
-            <p>Input devices are hardware components that allow users to interact with a computer system. Common input devices include keyboards, mice, scanners, and microphones. These devices are essential for data entry and communication with the system.</p>
-        </div>
-
-        <div class="device">
-            <h2>Output Devices</h2>
-            <img src="https://via.placeholder.com/800x400" alt="Output Devices">
-            <p>Output devices display or project data processed by the computer. Examples include monitors, printers, projectors, and speakers. They play a vital role in presenting information to users in readable or audible formats.</p>
-        </div>
-
-        <div class="device">
-            <h2>Storage Devices</h2>
-            <img src="https://via.placeholder.com/800x400" alt="Storage Devices">
-            <p>Storage devices are used to store digital data. These include hard drives, solid-state drives (SSD), USB flash drives, and memory cards. They ensure data persistence even when the system is powered off.</p>
-        </div>
-
-        <div class="device">
-            <h2>Networking Devices</h2>
-            <img src="https://via.placeholder.com/800x400" alt="Networking Devices">
-            <p>Networking devices connect computers and enable communication between them. Popular examples are routers, switches, and network interface cards (NIC). These devices are crucial for internet connectivity and data sharing.</p>
-        </div>
-
-        <div class="device">
-            <h2>Other Peripheral Devices</h2>
-            <img src="https://via.placeholder.com/800x400" alt="Other Peripheral Devices">
-            <p>Other peripheral devices include webcams, game controllers, external GPUs, and docking stations. These devices expand the capabilities of computers and provide additional functionality.</p>
+        <h2>Introduction</h2>
+        <p>Peripheral devices are essential components that connect to a computer, allowing users to interact with the system or enhance its capabilities. These devices can be categorized into input, output, and storage peripherals, each playing a distinct role in computing.</p>
+        <div class="image-wrapper">
+            <img src="https://via.placeholder.com/800x400" alt="Peripheral Devices">
         </div>
     </section>
 
+    <section>
+        <h2>Categories of Peripheral Devices</h2>
+        <h3>1. Input Devices</h3>
+        <p>Input devices enable users to communicate with the computer by providing data and control signals. Examples include:</p>
+        <ul>
+            <li><span class="highlight">Keyboard</span>: Allows text and commands to be input into the computer.</li>
+            <li><span class="highlight">Mouse</span>: Used for pointing, clicking, and dragging objects on the screen.</li>
+            <li><span class="highlight">Scanner</span>: Converts physical documents into digital formats.</li>
+        </ul>
+        <div class="image-wrapper">
+            <img src="https://via.placeholder.com/600x300" alt="Input Devices">
+        </div>
+
+        <h3>2. Output Devices</h3>
+        <p>Output devices convey information from the computer to the user. Common output devices include:</p>
+        <ul>
+            <li><span class="highlight">Monitor</span>: Displays visual output such as text, images, and videos.</li>
+            <li><span class="highlight">Printer</span>: Produces physical copies of digital documents.</li>
+            <li><span class="highlight">Speakers</span>: Generate audio output for multimedia purposes.</li>
+        </ul>
+        <div class="image-wrapper">
+            <img src="https://via.placeholder.com/600x300" alt="Output Devices">
+        </div>
+
+        <h3>3. Storage Devices</h3>
+        <p>Storage devices are used to save data for future use. Examples include:</p>
+        <ul>
+            <li><span class="highlight">Hard Drives</span>: Offer large-scale data storage.</li>
+            <li><span class="highlight">USB Flash Drives</span>: Provide portable storage solutions.</li>
+            <li><span class="highlight">Optical Discs</span>: Store data using laser technology (e.g., CDs and DVDs).</li>
+        </ul>
+        <div class="image-wrapper">
+            <img src="https://via.placeholder.com/600x300" alt="Storage Devices">
+        </div>
+    </section>
+
+    <section>
+        <h2>Importance of Peripheral Devices</h2>
+        <p>Peripheral devices significantly enhance the functionality of computers, making them more versatile and user-friendly. For instance, input devices like touch screens and styluses offer intuitive ways to interact with systems, while advanced output devices like 3D printers revolutionize industries.</p>
+    </section>
+
+    <section>
+        <h2>Conclusion</h2>
+        <p>Peripheral devices are indispensable in modern computing, bridging the gap between users and machines. They have evolved significantly over the years, offering innovative solutions to meet diverse user needs. Understanding their roles and applications is crucial for harnessing their full potential.</p>
+    </section>
+
     <footer>
-        <p>&copy; 2025 Peripheral Devices Project</p>
+        <p>&copy; 2025 Peripheral Devices Project. All Rights Reserved.</p>
     </footer>
 </body>
+
 </html>
